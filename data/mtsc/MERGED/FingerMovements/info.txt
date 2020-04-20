@@ -1,0 +1,3 @@
+All instances:	416
+Training size:	104	(seed 1)
+Test size:		26	(seed 2)

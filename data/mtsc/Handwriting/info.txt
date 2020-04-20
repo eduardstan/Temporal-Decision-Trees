@@ -1,0 +1,3 @@
+Channels	: 3
+Training	: 150
+Length		: 152

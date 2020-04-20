@@ -1,0 +1,7 @@
+Channels	: 3
+Training	: 1422
+Length		: 182
+
+DTW_I
+Training	: 100%
+Test		: 75.6267%

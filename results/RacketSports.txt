@@ -1,0 +1,126 @@
+--------------------------------------------------------------------------------------------------------------------
+| DATASET NAME                   | ALGORITHM | PARAMETERS           | #POINTS  | ACCURACY   | TIME                 | 
+--------------------------------------------------------------------------------------------------------------------
+| RacketSports                   | J48T      | [0.5]                |       30 |  70.8333 % |         1802.30 secs | 
+--------------------------------------------------------------------------------------------------------------------
+| RacketSports                   | J48T      | [0.6]                |       30 |  79.1667 % |         1777.73 secs | 
+--------------------------------------------------------------------------------------------------------------------
+| RacketSports                   | J48T      | [0.7]                |       30 |  66.6667 % |         1986.98 secs | 
+--------------------------------------------------------------------------------------------------------------------
+| RacketSports                   | J48T      | [0.8]                |       30 |  62.5000 % |         1785.88 secs | 
+--------------------------------------------------------------------------------------------------------------------
+| RacketSports                   | J48T      | [0.9]                |       30 |  62.5000 % |         1653.31 secs | 
+--------------------------------------------------------------------------------------------------------------------
+Finished
+
+=== Classification model (full training set) ===
+FilteredClassifier using weka.classifiers.trees.J48T -U -B -M 2 -fractionValues 0.6 -objectLanguage 0 -objectLanguageRelationMask 1,1,1,1,1,1,1,1,1,1,1,1,1 -propositionalAlgebra 0 -relationalAlgebra 0 on data filtered through weka.filters.unsupervised.attribute.RemoveObservations -O STR -K EFF -V 30.0 -D 0
+
+Filtered Header
+@relation RacketSports-weka.filters.supervised.instance.Resample-B1.0-S1-Z32.0-no-replacement-weka.filters.unsupervised.attribute.RemoveObservations-OSTR-KEFF-V30.0-D0
+
+@attribute var0 string
+@attribute var1 string
+@attribute var2 string
+@attribute var3 string
+@attribute var4 string
+@attribute var5 string
+@attribute activity {Badminton_Smash,Badminton_Clear,Squash_ForehandBoast,Squash_BackhandBoast}
+
+@data
+
+
+Classifier Model
+J48T unpruned tree
+------------------
+
+<L> var5 <= -2.756591
+|   <InvA> var5 <= 0.308951
+|   |   <=> var2 >= -0.916901
+|   |   |   <InvB> var0 <= 2.832243: Badminton_Clear (6.0)
+|   |   |   [InvB] var0 > 2.832243: Badminton_Smash (1.0)
+|   |   [=] var2 < -0.916901
+|   |   |   <B> var3 <= -0.207743
+|   |   |   |   <InvB> var0 >= 4.115426
+|   |   |   |   |   <D> var0 >= 1.452113: Squash_ForehandBoast (3.0)
+|   |   |   |   |   [D] var0 < 1.452113: Squash_BackhandBoast (1.0)
+|   |   |   |   [InvB] var0 < 4.115426
+|   |   |   |   |   <InvB> var0 <= -0.215688: Badminton_Smash (2.0)
+|   |   |   |   |   [InvB] var0 > -0.215688: Badminton_Clear (3.0)
+|   |   |   [B] var3 > -0.207743: Squash_ForehandBoast (14.0)
+|   [InvA] var5 > 0.308951
+|   |   <InvB> var5 <= -2.27452
+|   |   |   <InvA> var0 <= -1.044682: Squash_BackhandBoast (3.0/1.0)
+|   |   |   [InvA] var0 > -1.044682: Squash_ForehandBoast (7.0)
+|   |   [InvB] var5 > -2.27452: Squash_BackhandBoast (21.0)
+[L] var5 > -2.756591
+|   <A> var0 <= 0.098773
+|   |   <InvB> var0 >= -0.960139
+|   |   |   <B> var4 <= 0.625893: Badminton_Smash (16.0)
+|   |   |   [B] var4 > 0.625893: Badminton_Clear (1.0)
+|   |   [InvB] var0 < -0.960139: Badminton_Clear (2.0)
+|   [A] var0 > 0.098773
+|   |   <L> var4 >= 8.703901: Badminton_Smash (4.0)
+|   |   [L] var4 < 8.703901: Badminton_Clear (12.0)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	29
+
+Time taken to build model: 904.329 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          95               98.9583 %
+Incorrectly Classified Instances         1                1.0417 %
+Kappa statistic                          0.9861
+Mean absolute error                      0.0069
+Root mean squared error                  0.0589
+Relative absolute error                  1.8519 %
+Root relative squared error             13.6083 %
+Total Number of Instances               96     
+
+=== Detailed Accuracy by Class (training data) ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.958    0.000    1.000      0.958    0.979      0.972    0.999     0.997     Badminton_Smash
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Badminton_Clear
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Squash_ForehandBoast
+                 1.000    0.014    0.960      1.000    0.980      0.973    0.999     0.997     Squash_BackhandBoast
+Weighted Avg.    0.990    0.003    0.990      0.990    0.990      0.986    1.000     0.998     
+
+=== Confusion Matrix (training data) ===
+
+  a  b  c  d   <-- classified as
+ 23  0  0  1 |  a = Badminton_Smash
+  0 24  0  0 |  b = Badminton_Clear
+  0  0 24  0 |  c = Squash_ForehandBoast
+  0  0  0 24 |  d = Squash_BackhandBoast
+
+=== Error on test data ===
+
+Correctly Classified Instances          19               79.1667 %
+Incorrectly Classified Instances         5               20.8333 %
+Kappa statistic                          0.7222
+Mean absolute error                      0.1042
+Root mean squared error                  0.3227
+Relative absolute error                 27.7778 %
+Root relative squared error             74.5356 %
+Total Number of Instances               24     
+
+=== Detailed Accuracy by Class (test data) ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.667    0.056    0.800      0.667    0.727      0.652    0.806     0.617     Badminton_Smash
+                 0.833    0.111    0.714      0.833    0.769      0.688    0.861     0.637     Badminton_Clear
+                 0.667    0.000    1.000      0.667    0.800      0.775    0.833     0.750     Squash_ForehandBoast
+                 1.000    0.111    0.750      1.000    0.857      0.816    0.944     0.750     Squash_BackhandBoast
+Weighted Avg.    0.792    0.069    0.816      0.792    0.788      0.733    0.861     0.688     
+
+=== Confusion Matrix (test data) ===
+
+ a b c d   <-- classified as
+ 4 2 0 0 | a = Badminton_Smash
+ 1 5 0 0 | b = Badminton_Clear
+ 0 0 4 2 | c = Squash_ForehandBoast
+ 0 0 0 6 | d = Squash_BackhandBoast

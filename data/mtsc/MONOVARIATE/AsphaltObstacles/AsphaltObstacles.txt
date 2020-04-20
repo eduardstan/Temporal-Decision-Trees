@@ -1,0 +1,58 @@
+
+This dataset was used in [1] and donated by the authors of that
+paper. Accelerometer data was collected on a smartphone installed
+inside a vehicle using a flexible suction holder near the
+dashboard. An expert was responsible for driving the vehicle while
+the device ran an Android application called Asfault [2], developed
+specifically to store the current asphalt condition continuously
+over time. Asfault stores the time-stamp of the collected data,
+acceleration forces in along the three physical axes, latitude,
+longitude, and velocity.
+
+The acceleration forces are given by the accelerometer sensor of
+the device and are the data used for the classification task.
+Latitude, longitude, and velocity are given by the GPS and are used
+to locate the collected/classified data. Each one of this
+information is a different continuous time series. A sampling rate
+of 100 Hz was used for each time series. It is important to note
+that the Android system does not guarantee a perfect precision on
+the interval between readings. This means that when we choose a
+sampling rate of 100 Hz, the device should output between 95 and
+105 observations per second.
+
+For this data, the (X,Y,Z) acceleration time series are converted
+into a univariate time series that represents the acceleration
+magnitude.
+
+In order to obtain labeled data, the Asfault application allows the
+expert to inform the pavement condition before collecting the data.
+To guarantee the integrity of data, Asfault also records videos of
+the road over the data collection using the built-in camera. Thus,
+it is possible to perform the analysis of these videos to confirm
+the class labels assigned by the expert.
+
+The datasets were collected in the Brazilian cities of Sao Carlos,
+Ribeirao Preto, Araraquara, and Maringa using a medium sized
+hatchback car (Hyundai i30) and two different devices (Samsung
+Galaxy A5 and Samsung S7).
+
+The problem AsphaltObstacles involves the identification of four
+common obstacles in the region of data collection. It has the
+following class labels: raised_crosswalk (160 cases);
+raised_markers (187 cases); speed_bump (212 cases); and
+vertical_patch (222 cases). Data is variable length, minimum 111
+observations, maximum 736. The data is split randomly into 50/50
+default train series. The data can be resampled without bias.
+
+The best result for the Asphalt-Obstacles dataset was achieved by
+DTW distance with 81.13\% accuracy (Table 9 of [1])
+
+[1] Souza V.M.A. Asphalt pavement classification using smartphone
+accelerometer and Complexity Invariant Distance. Engineering
+Applications of Artificial Intelligence Volume 74, pp. 198-211.
+https://www.sciencedirect.com/science/article/pii/S0952197618301349
+
+[2] Souza V.M.A., Cherman E.A., Rossi R.G., Souza R.A. Towards
+automatic evaluation of asphalt irregularity using smartphones
+sensors International Symposium on Intelligent Data Analysis
+(2017), pp. 322-333

@@ -1,0 +1,597 @@
+---------------------------------------------------------------------------------------------
+| DATASET NAME                   | ALGORITHM | PARAMETERS           | #POINTS  | ACCURACY   | 
+---------------------------------------------------------------------------------------------
+| AtrialFibrillation             | J48       | [1,0,0,0]            |       50 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,0,0,0]            |      100 | 66.6667    | 
+| AtrialFibrillation             | J48       | [1,0,0,0]            |      150 | 83.3333    | 	<-
+| AtrialFibrillation             | J48       | [1,0,0,0]            |      200 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,0,0,0]            |      250 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,0,0,0]            |      300 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,0,0,0]            |      350 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,0,0,0]            |      400 | 50.0       | 
+| AtrialFibrillation             | J48       | [1,0,0,0]            |      450 | 83.3333    | 
+| AtrialFibrillation             | J48       | [1,0,0,0]            |      500 | 66.6667    | 
+| AtrialFibrillation             | J48       | [1,0,0,0]            |      550 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,0,0,0]            |      600 | 50.0       | 
+| AtrialFibrillation             | J48       | [1,0,0,0]            |      640 | 66.6667    | 
+---------------------------------------------------------------------------------------------
+| AtrialFibrillation             | J48       | [1,1,0,0]            |       50 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,1,0,0]            |      100 | 66.6667    | 
+| AtrialFibrillation             | J48       | [1,1,0,0]            |      150 | 83.3333    | 	<-
+| AtrialFibrillation             | J48       | [1,1,0,0]            |      200 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,1,0,0]            |      250 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,1,0,0]            |      300 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,1,0,0]            |      350 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,1,0,0]            |      400 | 50.0       | 
+| AtrialFibrillation             | J48       | [1,1,0,0]            |      450 | 83.3333    | 
+| AtrialFibrillation             | J48       | [1,1,0,0]            |      500 | 66.6667    | 
+| AtrialFibrillation             | J48       | [1,1,0,0]            |      550 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,1,0,0]            |      600 | 83.3333    | 
+| AtrialFibrillation             | J48       | [1,1,0,0]            |      640 | 50.0       | 
+---------------------------------------------------------------------------------------------
+| AtrialFibrillation             | J48       | [1,1,1,1]            |       50 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,1,1,1]            |      100 | 50.0       | 
+| AtrialFibrillation             | J48       | [1,1,1,1]            |      150 | 83.3333    | 	<-
+| AtrialFibrillation             | J48       | [1,1,1,1]            |      200 | 50.0       | 
+| AtrialFibrillation             | J48       | [1,1,1,1]            |      250 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,1,1,1]            |      300 | 83.3333    | 
+| AtrialFibrillation             | J48       | [1,1,1,1]            |      350 | 66.6667    | 
+| AtrialFibrillation             | J48       | [1,1,1,1]            |      400 | 83.3333    | 
+| AtrialFibrillation             | J48       | [1,1,1,1]            |      450 | 33.3333    | 
+| AtrialFibrillation             | J48       | [1,1,1,1]            |      500 | 66.6667    | 
+| AtrialFibrillation             | J48       | [1,1,1,1]            |      550 | 66.6667    | 
+| AtrialFibrillation             | J48       | [1,1,1,1]            |      600 | 83.3333    | 
+| AtrialFibrillation             | J48       | [1,1,1,1]            |      640 | 66.6667    | 
+---------------------------------------------------------------------------------------------
+| AtrialFibrillation             | NN_ED_I   | []                   |       50 | 83.3333    | 	<-
+| AtrialFibrillation             | NN_ED_I   | []                   |      100 | 83.3333    | 
+| AtrialFibrillation             | NN_ED_I   | []                   |      150 | 83.3333    | 
+| AtrialFibrillation             | NN_ED_I   | []                   |      200 | 83.3333    | 
+| AtrialFibrillation             | NN_ED_I   | []                   |      250 | 83.3333    | 
+| AtrialFibrillation             | NN_ED_I   | []                   |      300 | 83.3333    | 
+| AtrialFibrillation             | NN_ED_I   | []                   |      350 | 83.3333    | 
+| AtrialFibrillation             | NN_ED_I   | []                   |      400 | 83.3333    | 
+| AtrialFibrillation             | NN_ED_I   | []                   |      450 | 83.3333    | 
+| AtrialFibrillation             | NN_ED_I   | []                   |      500 | 83.3333    | 
+| AtrialFibrillation             | NN_ED_I   | []                   |      550 | 83.3333    | 
+| AtrialFibrillation             | NN_ED_I   | []                   |      600 | 83.3333    | 
+| AtrialFibrillation             | NN_ED_I   | []                   |      640 | 83.3333    | 
+---------------------------------------------------------------------------------------------
+| AtrialFibrillation             | NN_DTW_I  | []                   |       50 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_I  | []                   |      100 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_I  | []                   |      150 | 100.0      | 	<-
+| AtrialFibrillation             | NN_DTW_I  | []                   |      200 | 100.0      | 
+| AtrialFibrillation             | NN_DTW_I  | []                   |      250 | 100.0      | 
+| AtrialFibrillation             | NN_DTW_I  | []                   |      300 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_I  | []                   |      350 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_I  | []                   |      400 | 100.0      | 
+| AtrialFibrillation             | NN_DTW_I  | []                   |      450 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_I  | []                   |      500 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_I  | []                   |      550 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_I  | []                   |      600 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_I  | []                   |      640 | 83.3333    | 
+---------------------------------------------------------------------------------------------
+| AtrialFibrillation             | NN_DTW_D  | []                   |       50 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_D  | []                   |      100 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_D  | []                   |      150 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_D  | []                   |      200 | 100.0      | 	<-
+| AtrialFibrillation             | NN_DTW_D  | []                   |      250 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_D  | []                   |      300 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_D  | []                   |      350 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_D  | []                   |      400 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_D  | []                   |      450 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_D  | []                   |      500 | 100.0      | 
+| AtrialFibrillation             | NN_DTW_D  | []                   |      550 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_D  | []                   |      600 | 83.3333    | 
+| AtrialFibrillation             | NN_DTW_D  | []                   |      640 | 83.3333    | 	150
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+| FingerMovements                | J48       | [1,0,0,0]            |       50 | 50.0       | 
+---------------------------------------------------------------------------------------------
+| FingerMovements                | J48       | [1,1,0,0]            |       50 | 42.3077    | 
+---------------------------------------------------------------------------------------------
+| FingerMovements                | J48       | [1,1,1,1]            |       50 | 42.3077    | 
+---------------------------------------------------------------------------------------------
+| FingerMovements                | NN_ED_I   | []                   |       50 | 76.9231    | 
+---------------------------------------------------------------------------------------------
+| FingerMovements                | NN_DTW_I  | []                   |       50 | 65.3846    | 
+---------------------------------------------------------------------------------------------
+| FingerMovements                | NN_DTW_D  | []                   |       50 | 57.6923    | 
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+| HandMovementDirection          | J48       | [1,0,0,0]            |       50 | 41.6667    | 
+| HandMovementDirection          | J48       | [1,0,0,0]            |      100 | 37.5       | 
+| HandMovementDirection          | J48       | [1,0,0,0]            |      150 | 37.5       | 
+| HandMovementDirection          | J48       | [1,0,0,0]            |      200 | 54.1667    | 	<-
+| HandMovementDirection          | J48       | [1,0,0,0]            |      250 | 45.8333    | 
+| HandMovementDirection          | J48       | [1,0,0,0]            |      300 | 29.1667    | 
+| HandMovementDirection          | J48       | [1,0,0,0]            |      350 | 58.3333    | 	
+| HandMovementDirection          | J48       | [1,0,0,0]            |      400 | 41.6667    | 
+---------------------------------------------------------------------------------------------
+| HandMovementDirection          | J48       | [1,1,0,0]            |       50 | 37.5       | 
+| HandMovementDirection          | J48       | [1,1,0,0]            |      100 | 41.6667    | 
+| HandMovementDirection          | J48       | [1,1,0,0]            |      150 | 50.0       | 	<-
+| HandMovementDirection          | J48       | [1,1,0,0]            |      200 | 45.8333    | 
+| HandMovementDirection          | J48       | [1,1,0,0]            |      250 | 50.0       | 
+| HandMovementDirection          | J48       | [1,1,0,0]            |      300 | 37.5       | 
+| HandMovementDirection          | J48       | [1,1,0,0]            |      350 | 50.0       | 
+| HandMovementDirection          | J48       | [1,1,0,0]            |      400 | 54.1667    | 
+---------------------------------------------------------------------------------------------
+| HandMovementDirection          | J48       | [1,1,1,1]            |       50 | 45.8333    | 
+| HandMovementDirection          | J48       | [1,1,1,1]            |      100 | 54.1667    | 	<-
+| HandMovementDirection          | J48       | [1,1,1,1]            |      150 | 37.5       | 
+| HandMovementDirection          | J48       | [1,1,1,1]            |      200 | 50.0       | 
+| HandMovementDirection          | J48       | [1,1,1,1]            |      250 | 58.3333    | 
+| HandMovementDirection          | J48       | [1,1,1,1]            |      300 | 45.8333    | 
+| HandMovementDirection          | J48       | [1,1,1,1]            |      350 | 54.1667    | 
+| HandMovementDirection          | J48       | [1,1,1,1]            |      400 | 58.3333    | 
+---------------------------------------------------------------------------------------------
+| HandMovementDirection          | NN_ED_I   | []                   |       50 | 45.8333    | 
+| HandMovementDirection          | NN_ED_I   | []                   |      100 | 62.5       | 	<-
+| HandMovementDirection          | NN_ED_I   | []                   |      150 | 62.5       | 
+| HandMovementDirection          | NN_ED_I   | []                   |      200 | 62.5       | 
+| HandMovementDirection          | NN_ED_I   | []                   |      250 | 54.1667    | 
+| HandMovementDirection          | NN_ED_I   | []                   |      300 | 66.6667    | 
+| HandMovementDirection          | NN_ED_I   | []                   |      350 | 58.3333    | 
+| HandMovementDirection          | NN_ED_I   | []                   |      400 | 54.1667    | 
+---------------------------------------------------------------------------------------------
+| HandMovementDirection          | NN_DTW_I  | []                   |       50 | 50.0       | 
+| HandMovementDirection          | NN_DTW_I  | []                   |      100 | 54.1667    | 	<-
+| HandMovementDirection          | NN_DTW_I  | []                   |      150 | 54.1667    | 
+| HandMovementDirection          | NN_DTW_I  | []                   |      200 | 54.1667    | 
+| HandMovementDirection          | NN_DTW_I  | []                   |      250 | 50.0       | 
+| HandMovementDirection          | NN_DTW_I  | []                   |      300 | 54.1667    | 
+| HandMovementDirection          | NN_DTW_I  | []                   |      350 | 54.1667    | 
+| HandMovementDirection          | NN_DTW_I  | []                   |      400 | 50.0       | 
+---------------------------------------------------------------------------------------------
+| HandMovementDirection          | NN_DTW_D  | []                   |       50 | 50.0       | 
+| HandMovementDirection          | NN_DTW_D  | []                   |      100 | 45.8333    | 
+| HandMovementDirection          | NN_DTW_D  | []                   |      150 | 58.3333    | 	<-
+| HandMovementDirection          | NN_DTW_D  | []                   |      200 | 50.0       | 
+| HandMovementDirection          | NN_DTW_D  | []                   |      250 | 58.3333    | 
+| HandMovementDirection          | NN_DTW_D  | []                   |      300 | 54.1667    | 
+| HandMovementDirection          | NN_DTW_D  | []                   |      350 | 58.3333    | 
+| HandMovementDirection          | NN_DTW_D  | []                   |      400 | 54.1667    | 	150
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+| Handwriting                    | J48       | [1,0,0,0]            |       50 | 19.2308    | 
+| Handwriting                    | J48       | [1,0,0,0]            |      100 | 24.359     | 
+| Handwriting                    | J48       | [1,0,0,0]            |      150 | 33.3333    | 	<-
+| Handwriting                    | J48       | [1,0,0,0]            |      152 | 3.8462     | 
+---------------------------------------------------------------------------------------------
+| Handwriting                    | J48       | [1,1,0,0]            |       50 | 34.6154    | 
+| Handwriting                    | J48       | [1,1,0,0]            |      100 | 32.0513    | 
+| Handwriting                    | J48       | [1,1,0,0]            |      150 | 30.7692    | 	<-
+| Handwriting                    | J48       | [1,1,0,0]            |      152 | 5.1282     | 
+---------------------------------------------------------------------------------------------
+| Handwriting                    | J48       | [1,1,1,1]            |       50 | 30.7692    | 
+| Handwriting                    | J48       | [1,1,1,1]            |      100 | 32.0513    | 
+| Handwriting                    | J48       | [1,1,1,1]            |      150 | 43.5897    | 
+| Handwriting                    | J48       | [1,1,1,1]            |      152 | 30.7692    | 
+---------------------------------------------------------------------------------------------
+| Handwriting                    | NN_ED_I   | []                   |       50 | 52.5641    | 
+| Handwriting                    | NN_ED_I   | []                   |      100 | 58.9744    | 
+| Handwriting                    | NN_ED_I   | []                   |      150 | 60.2564    | 
+| Handwriting                    | NN_ED_I   | []                   |      152 | 60.2564    | 
+---------------------------------------------------------------------------------------------
+| Handwriting                    | NN_DTW_I  | []                   |       50 | 55.1282    | 
+| Handwriting                    | NN_DTW_I  | []                   |      100 | 76.9231    | 
+| Handwriting                    | NN_DTW_I  | []                   |      150 | 78.2051    | 
+| Handwriting                    | NN_DTW_I  | []                   |      152 | 78.2051    | 
+---------------------------------------------------------------------------------------------
+| Handwriting                    | NN_DTW_D  | []                   |       50 | 67.9487    | 
+| Handwriting                    | NN_DTW_D  | []                   |      100 | 83.3333    | 
+| Handwriting                    | NN_DTW_D  | []                   |      150 | 87.1795    | 
+| Handwriting                    | NN_DTW_D  | []                   |      152 | 87.1795    | 	152
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+| Libras                         | J48       | [1,0,0,0]            |       45 | 40.0       | 
+---------------------------------------------------------------------------------------------
+| Libras                         | J48       | [1,1,0,0]            |       45 | 51.1111    | 
+---------------------------------------------------------------------------------------------
+| Libras                         | J48       | [1,1,1,1]            |       45 | 64.4444    | 
+---------------------------------------------------------------------------------------------
+| Libras                         | NN_ED_I   | []                   |       45 | 86.6667    | 
+---------------------------------------------------------------------------------------------
+| Libras                         | NN_DTW_I  | []                   |       45 | 91.1111    | 
+---------------------------------------------------------------------------------------------
+| Libras                         | NN_DTW_D  | []                   |       45 | 91.1111    | 
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+| LSST                           | J48       | [1,0,0,0]            |       36 | 30.9524    | 
+---------------------------------------------------------------------------------------------
+| LSST                           | J48       | [1,1,0,0]            |       36 | 30.9524    | 
+---------------------------------------------------------------------------------------------
+| LSST                           | J48       | [1,1,1,1]            |       36 | 38.0952    | 
+---------------------------------------------------------------------------------------------
+| LSST                           | NN_ED_I   | []                   |       36 | 42.8571    | 
+---------------------------------------------------------------------------------------------
+| LSST                           | NN_DTW_I  | []                   |       36 | 33.3333    | 
+---------------------------------------------------------------------------------------------
+| LSST                           | NN_DTW_D  | []                   |       36 | 40.4762    | 
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+| NATOPS                         | J48       | [1,0,0,0]            |       50 | 79.1667    | 
+| NATOPS                         | J48       | [1,0,0,0]            |       51 | 79.1667    | 
+---------------------------------------------------------------------------------------------
+| NATOPS                         | J48       | [1,1,0,0]            |       50 | 75.0       | 
+| NATOPS                         | J48       | [1,1,0,0]            |       51 | 75.0       | 
+---------------------------------------------------------------------------------------------
+| NATOPS                         | J48       | [1,1,1,1]            |       50 | 70.8333    | 
+| NATOPS                         | J48       | [1,1,1,1]            |       51 | 62.5       | 
+---------------------------------------------------------------------------------------------
+| NATOPS                         | NN_ED_I   | []                   |       50 | 75.0       | 
+| NATOPS                         | NN_ED_I   | []                   |       51 | 70.8333    | 
+---------------------------------------------------------------------------------------------
+| NATOPS                         | NN_DTW_I  | []                   |       50 | 87.5       | 
+| NATOPS                         | NN_DTW_I  | []                   |       51 | 87.5       | 
+---------------------------------------------------------------------------------------------
+| NATOPS                         | NN_DTW_D  | []                   |       50 | 87.5       | 
+| NATOPS                         | NN_DTW_D  | []                   |       51 | 87.5       | 	50
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+| PhonemeSpectra                 | J48       | [1,0,0,0]            |       50 | 10.2564    | 
+| PhonemeSpectra                 | J48       | [1,0,0,0]            |      100 | 12.8205    | 
+| PhonemeSpectra                 | J48       | [1,0,0,0]            |      150 | 13.6752    | 	<-
+| PhonemeSpectra                 | J48       | [1,0,0,0]            |      200 | 11.9658    | 
+| PhonemeSpectra                 | J48       | [1,0,0,0]            |      217 | 11.9658    | 
+---------------------------------------------------------------------------------------------
+| PhonemeSpectra                 | J48       | [1,1,0,0]            |       50 | 7.6923     | 
+| PhonemeSpectra                 | J48       | [1,1,0,0]            |      100 | 12.8205    | 
+| PhonemeSpectra                 | J48       | [1,1,0,0]            |      150 | 13.6752    | 
+| PhonemeSpectra                 | J48       | [1,1,0,0]            |      200 | 15.3846    | 	<-
+| PhonemeSpectra                 | J48       | [1,1,0,0]            |      217 | 9.4017     | 	
+---------------------------------------------------------------------------------------------
+| PhonemeSpectra                 | J48       | [1,1,1,1]            |       50 | 8.547      | 
+| PhonemeSpectra                 | J48       | [1,1,1,1]            |      100 | 8.547      | 
+| PhonemeSpectra                 | J48       | [1,1,1,1]            |      150 | 9.4017     | 
+| PhonemeSpectra                 | J48       | [1,1,1,1]            |      200 | 12.8205    | 	<-
+| PhonemeSpectra                 | J48       | [1,1,1,1]            |      217 | 12.8205    | 
+---------------------------------------------------------------------------------------------
+| PhonemeSpectra                 | NN_ED_I   | []                   |       50 | 17.094     | 
+| PhonemeSpectra                 | NN_ED_I   | []                   |      100 | 16.2393    | 
+| PhonemeSpectra                 | NN_ED_I   | []                   |      150 | 17.094     | 
+| PhonemeSpectra                 | NN_ED_I   | []                   |      200 | 17.9487    | 
+| PhonemeSpectra                 | NN_ED_I   | []                   |      217 | 16.2393    | 
+---------------------------------------------------------------------------------------------
+| PhonemeSpectra                 | NN_DTW_I  | []                   |       50 | 14.5299    | 
+| PhonemeSpectra                 | NN_DTW_I  | []                   |      100 | 17.094     | 
+| PhonemeSpectra                 | NN_DTW_I  | []                   |      150 | 18.8034    | 
+| PhonemeSpectra                 | NN_DTW_I  | []                   |      200 | 20.5128    | 
+| PhonemeSpectra                 | NN_DTW_I  | []                   |      217 | 20.5128    | 
+---------------------------------------------------------------------------------------------
+| PhonemeSpectra                 | NN_DTW_D  | []                   |       50 | 14.5299    | 
+| PhonemeSpectra                 | NN_DTW_D  | []                   |      100 | 17.094     | 
+| PhonemeSpectra                 | NN_DTW_D  | []                   |      150 | 18.8034    | 
+| PhonemeSpectra                 | NN_DTW_D  | []                   |      200 | 20.5128    | 
+| PhonemeSpectra                 | NN_DTW_D  | []                   |      217 | 20.5128    | 	200
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+| RacketSports                   | J48       | [1,0,0,0]            |       30 | 70.8333    | 
+---------------------------------------------------------------------------------------------
+| RacketSports                   | J48       | [1,1,0,0]            |       30 | 87.5       | 
+---------------------------------------------------------------------------------------------
+| RacketSports                   | J48       | [1,1,1,1]            |       30 | 79.1667    | 
+---------------------------------------------------------------------------------------------
+| RacketSports                   | NN_ED_I   | []                   |       30 | 79.1667    | 
+---------------------------------------------------------------------------------------------
+| RacketSports                   | NN_DTW_I  | []                   |       30 | 75.0       | 
+---------------------------------------------------------------------------------------------
+| RacketSports                   | NN_DTW_D  | []                   |       30 | 83.3333    | 
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |       50 | 50.0       | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      100 | 50.0       | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      150 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      200 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      250 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      300 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      350 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      400 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      450 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      500 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      550 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      600 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      650 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      700 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      750 | 100.0      | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      800 | 50.0       | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      850 | 50.0       | 
+| SelfRegulationSCP1             | J48       | [1,0,0,0]            |      896 | 50.0       | 
+---------------------------------------------------------------------------------------------
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |       50 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      100 | 50.0       | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      150 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      200 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      250 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      300 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      350 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      400 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      450 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      500 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      550 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      600 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      650 | 50.0       | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      700 | 100.0      | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      750 | 33.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      800 | 33.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      850 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,1,0,0]            |      896 | 66.6667    | 
+---------------------------------------------------------------------------------------------
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |       50 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      100 | 50.0       | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      150 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      200 | 33.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      250 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      300 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      350 | 33.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      400 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      450 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      500 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      550 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      600 | 100.0      | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      650 | 83.3333    | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      700 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      750 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      800 | 66.6667    | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      850 | 100.0      | 
+| SelfRegulationSCP1             | J48       | [1,1,1,1]            |      896 | 83.3333    | 
+---------------------------------------------------------------------------------------------
+| SelfRegulationSCP1             | NN_ED_I   | []                   |       50 | 83.3333    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      100 | 83.3333    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      150 | 66.6667    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      200 | 66.6667    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      250 | 83.3333    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      300 | 83.3333    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      350 | 83.3333    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      400 | 83.3333    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      450 | 83.3333    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      500 | 83.3333    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      550 | 83.3333    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      600 | 83.3333    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      650 | 83.3333    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      700 | 83.3333    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      750 | 100.0      | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      800 | 83.3333    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      850 | 83.3333    | 
+| SelfRegulationSCP1             | NN_ED_I   | []                   |      896 | 83.3333    | 
+---------------------------------------------------------------------------------------------
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |       50 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      100 | 66.6667    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      150 | 66.6667    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      200 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      250 | 66.6667    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      300 | 66.6667    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      350 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      400 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      450 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      500 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      550 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      600 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      650 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      700 | 66.6667    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      750 | 66.6667    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      800 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      850 | 66.6667    | 
+| SelfRegulationSCP1             | NN_DTW_I  | []                   |      896 | 83.3333    | 
+---------------------------------------------------------------------------------------------
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |       50 | 100.0      | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      100 | 66.6667    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      150 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      200 | 50.0       | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      250 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      300 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      350 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      400 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      450 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      500 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      550 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      600 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      650 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      700 | 83.3333    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      750 | 66.6667    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      800 | 66.6667    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      850 | 66.6667    | 
+| SelfRegulationSCP1             | NN_DTW_D  | []                   |      896 | 50.0       | 	150
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |       50 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      100 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      150 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      200 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      250 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      300 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      350 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      400 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      450 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      500 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      550 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      600 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      650 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      700 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      750 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      800 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      850 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      900 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |      950 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |     1000 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |     1050 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |     1100 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |     1150 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,0,0,0]            |     1152 | 50.0       | 
+---------------------------------------------------------------------------------------------
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |       50 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      100 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      150 | 54.1667    | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      200 | 54.1667    | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      250 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      300 | 58.3333    | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      350 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      400 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      450 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      500 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      550 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      600 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      650 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      700 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      750 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      800 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      850 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      900 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |      950 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |     1000 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |     1050 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |     1100 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |     1150 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,0,0]            |     1152 | 50.0       | 
+---------------------------------------------------------------------------------------------
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |       50 | 54.1667    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      100 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      150 | 62.5       | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      200 | 62.5       | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      250 | 54.1667    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      300 | 54.1667    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      350 | 58.3333    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      400 | 54.1667    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      450 | 54.1667    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      500 | 58.3333    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      550 | 58.3333    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      600 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      650 | 58.3333    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      700 | 58.3333    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      750 | 54.1667    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      800 | 66.6667    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      850 | 70.8333    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      900 | 70.8333    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |      950 | 70.8333    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |     1000 | 70.8333    | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |     1050 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |     1100 | 50.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |     1150 | 75.0       | 
+| SelfRegulationSCP2             | J48       | [1,1,1,1]            |     1152 | 75.0       | 
+---------------------------------------------------------------------------------------------
+| SelfRegulationSCP2             | NN_ED_I   | []                   |       50 | 66.6667    | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      100 | 62.5       | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      150 | 66.6667    | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      200 | 66.6667    | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      250 | 62.5       | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      300 | 62.5       | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      350 | 62.5       | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      400 | 70.8333    | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      450 | 58.3333    | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      500 | 50.0       | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      550 | 50.0       | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      600 | 50.0       | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      650 | 50.0       | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      700 | 50.0       | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      750 | 54.1667    | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      800 | 50.0       | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      850 | 58.3333    | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      900 | 58.3333    | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |      950 | 54.1667    | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |     1000 | 50.0       | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |     1050 | 58.3333    | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |     1100 | 54.1667    | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |     1150 | 62.5       | 
+| SelfRegulationSCP2             | NN_ED_I   | []                   |     1152 | 62.5       | 
+---------------------------------------------------------------------------------------------
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |       50 | 75.0       | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      100 | 62.5       | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      150 | 66.6667    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      200 | 66.6667    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      250 | 54.1667    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      300 | 58.3333    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      350 | 50.0       | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      400 | 62.5       | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      450 | 58.3333    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      500 | 62.5       | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      550 | 54.1667    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      600 | 66.6667    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      650 | 62.5       | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      700 | 54.1667    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      750 | 54.1667    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      800 | 45.8333    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      850 | 45.8333    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      900 | 54.1667    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |      950 | 50.0       | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |     1000 | 54.1667    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |     1050 | 70.8333    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |     1100 | 54.1667    | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |     1150 | 62.5       | 
+| SelfRegulationSCP2             | NN_DTW_I  | []                   |     1152 | 62.5       | 
+---------------------------------------------------------------------------------------------
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |       50 | 66.6667    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      100 | 58.3333    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      150 | 66.6667    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      200 | 62.5       | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      250 | 58.3333    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      300 | 54.1667    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      350 | 54.1667    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      400 | 58.3333    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      450 | 54.1667    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      500 | 58.3333    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      550 | 62.5       | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      600 | 58.3333    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      650 | 58.3333    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      700 | 45.8333    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      750 | 66.6667    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      800 | 58.3333    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      850 | 58.3333    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      900 | 54.1667    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |      950 | 54.1667    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |     1000 | 54.1667    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |     1050 | 58.3333    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |     1100 | 54.1667    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |     1150 | 66.6667    | 
+| SelfRegulationSCP2             | NN_DTW_D  | []                   |     1152 | 66.6667    | 	150
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+| UWaveGestureLibrary            | J48       | [1,0,0,0]            |       50 | 50.0       | 
+| UWaveGestureLibrary            | J48       | [1,0,0,0]            |      100 | 70.8333    | 
+| UWaveGestureLibrary            | J48       | [1,0,0,0]            |      150 | 66.6667    | 
+| UWaveGestureLibrary            | J48       | [1,0,0,0]            |      200 | 70.8333    | 
+| UWaveGestureLibrary            | J48       | [1,0,0,0]            |      250 | 70.8333    | 
+| UWaveGestureLibrary            | J48       | [1,0,0,0]            |      300 | 58.3333    | 
+| UWaveGestureLibrary            | J48       | [1,0,0,0]            |      315 | 12.5       | 
+---------------------------------------------------------------------------------------------
+| UWaveGestureLibrary            | J48       | [1,1,0,0]            |       50 | 58.3333    | 
+| UWaveGestureLibrary            | J48       | [1,1,0,0]            |      100 | 75.0       | 
+| UWaveGestureLibrary            | J48       | [1,1,0,0]            |      150 | 62.5       | 
+| UWaveGestureLibrary            | J48       | [1,1,0,0]            |      200 | 70.8333    | 
+| UWaveGestureLibrary            | J48       | [1,1,0,0]            |      250 | 66.6667    | 
+| UWaveGestureLibrary            | J48       | [1,1,0,0]            |      300 | 58.3333    | 
+| UWaveGestureLibrary            | J48       | [1,1,0,0]            |      315 | 12.5       | 
+---------------------------------------------------------------------------------------------
+| UWaveGestureLibrary            | J48       | [1,1,1,1]            |       50 | 41.6667    | 
+| UWaveGestureLibrary            | J48       | [1,1,1,1]            |      100 | 75.0       | 
+| UWaveGestureLibrary            | J48       | [1,1,1,1]            |      150 | 54.1667    | 
+| UWaveGestureLibrary            | J48       | [1,1,1,1]            |      200 | 62.5       | 
+| UWaveGestureLibrary            | J48       | [1,1,1,1]            |      250 | 54.1667    | 
+| UWaveGestureLibrary            | J48       | [1,1,1,1]            |      300 | 62.5       | 
+| UWaveGestureLibrary            | J48       | [1,1,1,1]            |      315 | 50.0       | 
+---------------------------------------------------------------------------------------------
+| UWaveGestureLibrary            | NN_ED_I   | []                   |       50 | 66.6667    | 
+| UWaveGestureLibrary            | NN_ED_I   | []                   |      100 | 79.1667    | 
+| UWaveGestureLibrary            | NN_ED_I   | []                   |      150 | 87.5       | 
+| UWaveGestureLibrary            | NN_ED_I   | []                   |      200 | 87.5       | 
+| UWaveGestureLibrary            | NN_ED_I   | []                   |      250 | 83.3333    | 
+| UWaveGestureLibrary            | NN_ED_I   | []                   |      300 | 87.5       | 
+| UWaveGestureLibrary            | NN_ED_I   | []                   |      315 | 91.6667    | 
+---------------------------------------------------------------------------------------------
+| UWaveGestureLibrary            | NN_DTW_I  | []                   |       50 | 79.1667    | 
+| UWaveGestureLibrary            | NN_DTW_I  | []                   |      100 | 79.1667    | 
+| UWaveGestureLibrary            | NN_DTW_I  | []                   |      150 | 91.6667    | 
+| UWaveGestureLibrary            | NN_DTW_I  | []                   |      200 | 83.3333    | 
+| UWaveGestureLibrary            | NN_DTW_I  | []                   |      250 | 87.5       | 
+| UWaveGestureLibrary            | NN_DTW_I  | []                   |      300 | 95.8333    | 
+| UWaveGestureLibrary            | NN_DTW_I  | []                   |      315 | 95.8333    | 
+---------------------------------------------------------------------------------------------
+| UWaveGestureLibrary            | NN_DTW_D  | []                   |       50 | 66.6667    | 
+| UWaveGestureLibrary            | NN_DTW_D  | []                   |      100 | 79.1667    | 
+| UWaveGestureLibrary            | NN_DTW_D  | []                   |      150 | 95.8333    | 
+| UWaveGestureLibrary            | NN_DTW_D  | []                   |      200 | 100.0      | 
+| UWaveGestureLibrary            | NN_DTW_D  | []                   |      250 | 100.0      | 
+| UWaveGestureLibrary            | NN_DTW_D  | []                   |      300 | 95.8333    | 
+| UWaveGestureLibrary            | NN_DTW_D  | []                   |      315 | 100.0      | 	150
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------

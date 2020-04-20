@@ -1,0 +1,3 @@
+Channels	: 28
+Training	: 316
+Length		: 50
